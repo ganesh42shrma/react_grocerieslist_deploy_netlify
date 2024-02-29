@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "checked": false,
+      "item": "chocolates"
+    },
+    {
+      "id": 2,
+      "checked": false,
+      "item": "almonds"
+    },
+    {
+      "id": 3,
+      "checked": false,
+      "item": "sauce"
+    },
+    {
+      "id": 4,
+      "checked": false,
+      "item": "popcorn"
+    },
+    {
+      "id": 5,
+      "checked": false,
+      "item": "bob"
+    }
+  ]
+}

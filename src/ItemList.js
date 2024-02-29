@@ -1,19 +1,18 @@
-import LineItem from "./LineItem"
+import LineItem from './LineItem';
 
-
-const ItemList = ( {items , handleCheck , handleDelete}) => {
-  return (
+const ItemList = ({ items, handleCheck, handleDelete }) => {
+    return (
         <ul>
-            {items.map((item)=>(
+            {items.map((item) => (
                 <LineItem
-                    key = {item.id}
-                    item = {item}
+                    key={item.id}
+                    item={item}
                     handleCheck={handleCheck}
                     handleDelete={handleDelete}
                 />
             ))}
-    </ul>
-  )
+        </ul>
+    )
 }
 
 export default ItemList
