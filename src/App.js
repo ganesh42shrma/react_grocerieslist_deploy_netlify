@@ -5,9 +5,10 @@ import Content from './Content';
 import Footer from './Footer';
 import { useState, useEffect } from 'react';
 import apiRequest from './apiRequest';
+import API_KEY from './apikey';
 
 function App() {
-  const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:3500/items'
+  const API_URL = process.env.REACT_APP_API_URL || API_KEY
 
   const [items, setItems] = useState([]);
   const [newItem, setNewItem] = useState('');
