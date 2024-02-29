@@ -5,7 +5,6 @@ import Content from './Content';
 import Footer from './Footer';
 import { useState, useEffect } from 'react';
 import apiRequest from './apiRequest';
-import API_KEY from './apikey';
 
 function App() {
   const API_URL = process.env.REACT_APP_API_KEY;
