@@ -3,27 +3,32 @@
     {
       "id": 1,
       "checked": false,
-      "item": "chocolates"
+      "item": "hello"
     },
     {
       "id": 2,
       "checked": false,
-      "item": "almonds"
+      "item": "world"
     },
     {
       "id": 3,
       "checked": false,
-      "item": "sauce"
+      "item": "omg"
     },
     {
       "id": 4,
       "checked": false,
-      "item": "popcorn"
+      "item": "it "
     },
     {
       "id": 5,
       "checked": false,
-      "item": "bob"
+      "item": "is "
+    },
+    {
+      "id": 6,
+      "checked": false,
+      "item": "working"
     }
   ]
 }
